@@ -14,6 +14,7 @@ This last point applies even more to GitHub.
 - With [Home Manager](https://github.com/nix-community/home-manager)
 - Without [Flakes](https://wiki.nixos.org/wiki/Flakes)
 - Dynamically tilling environment with the [Hyprland Wayland compositor](https://github.com/hyprwm/Hyprland)
+- For use in a stable NixOS release, with some packages from the unstable branch.
 - Use for myself; One may use this configuration only after modifying it
 
 ---
