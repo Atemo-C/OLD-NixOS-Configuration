@@ -75,6 +75,7 @@
 		./Settings/Power-button.nix
 		./Settings/Audio.nix
 		./Settings/Fstab.nix
+		./Settings/Systemd.nix
 
 		# Programs
 		./Programs/Text-editing.nix
