@@ -1,6 +1,6 @@
 { config, lib, pkgs, ... }: {
 
-	users.users.your-name-here = {
+	users.users.usernamehere = {
 		isNormalUser = true;
 		description = "Your fancy name here";
 		extraGroups = [
