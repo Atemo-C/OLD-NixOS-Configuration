@@ -20,6 +20,8 @@ This last point applies even more to GitHub.
 ---
 
 ## Not yet implemented or tested, including but not limited to:
+- Legacy BIOS support
+- Secure Boot support
 - Accessibility tools
 - Touchscreen input
 - Functional [NVIDIA PRIME](https://wiki.nixos.org/wiki/Nvidia#Laptop_configuration:_hybrid_graphics_(Nvidia_Optimus_PRIME)) support
