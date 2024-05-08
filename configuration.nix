@@ -50,6 +50,7 @@
 #		./Drivers/Intel-GPU.nix
 		./Drivers/NVIDIA-GPU.nix
 #		./Drivers/Laptop.nix
+		./Drivers/OpenGL.nix
 
 		# Settings
 		./Settings/Boot.nix
@@ -99,7 +100,6 @@
 		./Functionalities/Flatpak.nix
 		./Functionalities/Hyprland-desktop.nix
 		./Functionalities/Home-Manager.nix
-		./Functionalities/OpenGL.nix
 		./Functionalities/DConf.nix
 		./Functionalities/Virtualisation.nix
 	];
