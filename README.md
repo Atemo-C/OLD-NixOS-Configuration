@@ -20,6 +20,7 @@ This last point applies even more to GitHub.
 ---
 
 ## Not yet implemented or tested, including but not limited to:
+- Bluetooth support
 - Legacy BIOS support
 - Secure Boot support
 - Accessibility tools
