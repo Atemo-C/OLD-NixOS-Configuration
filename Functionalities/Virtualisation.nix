@@ -2,7 +2,7 @@
 
 	programs.virt-manager.enable = true;
 
-	home-manager.users.your-user-here.dconf.settings = {
+	home-manager.users.usernamehere.dconf.settings = {
 		"org/virt-manager/virt-manager/connections" = {
 			autoconnect = [ "qemu:///system" ];
 			uris = [ "qemu:///system" ];
