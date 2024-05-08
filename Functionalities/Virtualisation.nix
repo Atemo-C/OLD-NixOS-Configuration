@@ -2,7 +2,7 @@
 
 	programs.virt-manager.enable = true;
 
-	home-manager.users.atemo.dconf.settings = {
+	home-manager.users.your-user-here.dconf.settings = {
 		"org/virt-manager/virt-manager/connections" = {
 			autoconnect = [ "qemu:///system" ];
 			uris = [ "qemu:///system" ];
