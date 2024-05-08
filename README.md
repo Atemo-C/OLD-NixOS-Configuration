@@ -34,7 +34,7 @@ This last point applies even more to GitHub.
 - Personal computers with an architecture other than x86_64 (AMD64)
 - Personal computers with no adequate GPU acceleration
 - Personal computers with less than 4 GiB of random access memory
-- Personal computers with less than 12 8GiB of storage
+- Personal computers with less than 128 GiB of storage
 
 ---
 
