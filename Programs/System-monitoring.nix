@@ -6,6 +6,7 @@
 		btop
 		cpu-x
 		lm_sensors
+		unstable.mission-center
 
 		# Informations
 		neofetch
