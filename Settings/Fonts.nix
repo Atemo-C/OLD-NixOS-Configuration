@@ -21,7 +21,7 @@
 			hinting.style = "slight";
 		};
 		packages = with pkgs; [
-			(nerdfonts.override {
+			(unstable.nerdfonts.override {
 				fonts = [
 					"Ubuntu"
 					"UbuntuMono"
