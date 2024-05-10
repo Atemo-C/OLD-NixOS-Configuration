@@ -13,8 +13,7 @@
 
 			# Menus and scripts
 			gnome.zenity
-			dmenu # Note: Both dmenu and instantMENU are bound to be replaced.
-			nur.repos.instantos.instantmenu
+			dmenu
 			tofi
 
 			# Brightness control
