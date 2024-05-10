@@ -15,6 +15,7 @@
 			gnome.zenity
 			dmenu # Note: Both dmenu and instantMENU are bound to be replaced.
 			nur.repos.instantos.instantmenu
+			tofi
 
 			# Brightness control
 			brightnessctl
