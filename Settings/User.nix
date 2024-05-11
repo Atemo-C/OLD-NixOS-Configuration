@@ -3,6 +3,7 @@
 	users.users.usernamehere = {
 		isNormalUser = true;
 		description = "Your fancy name here";
+		home = "/Your/desired/home/directory/;
 		extraGroups = [
 			"wheel"
 			"plugdev"
