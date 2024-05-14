@@ -13,7 +13,6 @@
 
 			# Menus and scripts
 			gnome.zenity
-			dmenu
 			tofi
 
 			# Brightness control
