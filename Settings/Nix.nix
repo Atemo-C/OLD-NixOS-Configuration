@@ -4,7 +4,7 @@
 		auto-optimise-store = true;
 		trusted-users = [
 			"root"
-			"your-user-here"
+			"usernamehere"
 		];
 	};
 
