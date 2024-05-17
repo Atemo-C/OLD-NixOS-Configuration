@@ -13,6 +13,7 @@
 		dash
 		wget
 		git
+		gh
 	];
 
 }
