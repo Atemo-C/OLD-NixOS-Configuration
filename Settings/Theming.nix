@@ -8,7 +8,7 @@
 		systemPackages = with pkgs; [ flat-remix-icon-theme ];
 	};
 
-	home-manager.users.atemo = {
+	home-manager.users.usernamehere = {
 		home.pointerCursor = {
 			gtk.enable = true;
 #			package = pkgs.bibata-cursors;
