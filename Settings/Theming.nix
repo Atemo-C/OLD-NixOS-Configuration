@@ -8,18 +8,22 @@
 		systemPackages = with pkgs; [ flat-remix-icon-theme ];
 	};
 
-	home-manager.users.usernamehere = {
+	home-manager.users.atemo = {
 		home.pointerCursor = {
 			gtk.enable = true;
-			package = pkgs.bibata-cursors;
-			name = "Bibata-Modern-Ice";
+#			package = pkgs.bibata-cursors;
+#			name = "Bibata-Modern-Ice";
+			package = pkgs.libsForQt5.breeze-qt5;
+			name = "Breeze_Snow";
 			size = 16;
 		};
 		gtk = {
 			enable = true;
 			cursorTheme = {
-				package = pkgs.bibata-cursors;
-				name = "Bibata-Modern-Ice";
+#				package = pkgs.bibata-cursors;
+#				name = "Bibata-Modern-Ice";
+				package = pkgs.libsForQt5.breeze-qt5;
+				name = "Breeze_Snow";
 				size = 16;
 			};
 			iconTheme = {
