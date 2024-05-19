@@ -14,7 +14,7 @@ This last point applies even more to GitHub.
 - With [Home Manager](https://github.com/nix-community/home-manager)
 - Without [Flakes](https://wiki.nixos.org/wiki/Flakes)
 - Dynamically tilling environment with the [Hyprland Wayland compositor](https://github.com/hyprwm/Hyprland)
-- For use in a stable NixOS release, with some packages from the unstable branch.
+- For use in a stable NixOS release, with some packages from the unstable branch
 - Use for myself; One may use this configuration only after modifying it
 
 ---
@@ -31,10 +31,11 @@ This last point applies even more to GitHub.
 - Remote desktop functionality
 - Snap software packaging and deployment system
 - Use inside a virtualized personal computer
-- Personal computers with an architecture other than x86_64 (AMD64)
-- Personal computers with no adequate GPU acceleration
-- Personal computers with less than 4 GiB of random access memory
-- Personal computers with less than 128 GiB of storage
+- Persoonal cmputers with:
+- - An architecture other than x86_64 (AMD64)
+  - No adequate GPU acceleration
+  - Less than 4 GiB of random access memory
+  - Less than 128 GiB of storage
 
 ---
 
