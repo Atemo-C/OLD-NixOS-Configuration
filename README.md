@@ -9,7 +9,7 @@ This last point applies even more to GitHub.
 
 ## Targeted use case:
 - Single user
-- “Desktop” computing use
+- Personal computing use
 - For static and portable personal computers
 - With [Home Manager](https://github.com/nix-community/home-manager)
 - Without [Flakes](https://wiki.nixos.org/wiki/Flakes)
