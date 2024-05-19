@@ -25,6 +25,6 @@
 #		};
 	};
 
-	users.extraGroups.vboxusers.members = [ "atemo" ];
+	users.extraGroups.vboxusers.members = [ "usernamehere" ];
 
 }

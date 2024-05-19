@@ -10,7 +10,6 @@
 		prismlauncher
 
 		# Gaming utilities
-		unstable.gamescope
 		ferium
 		jstest-gtk
 
@@ -24,6 +23,10 @@
 		gamemode = {
 			enable = true;
 			settings.general = { inhibit_screensaver = 0; };
+		};
+		gamescope = {
+			enable = true;
+			package = pkgs.unstable.gamescope;
 		};
 		steam = {
 			dedicatedServer.openFirewall = false;

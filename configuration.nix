@@ -101,7 +101,6 @@
 		./Functionalities/Flatpak.nix
 		./Functionalities/Hyprland-desktop.nix
 		./Functionalities/Home-Manager.nix
-		./Functionalities/DConf.nix
 		./Functionalities/Virtualisation.nix
 	];
 }
