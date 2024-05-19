@@ -32,7 +32,7 @@ This last point applies even more to GitHub.
 - Snap software packaging and deployment system
 - Use inside a virtualized personal computer
 - Persoonal cmputers with:
-- - An architecture other than x86_64 (AMD64)
+  - An architecture other than x86_64 (AMD64)
   - No adequate GPU acceleration
   - Less than 4 GiB of random access memory
   - Less than 128 GiB of storage
