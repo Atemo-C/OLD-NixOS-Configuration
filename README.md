@@ -7,6 +7,11 @@ This last point applies even more to GitHub.
 
 ---
 
+## Credits:
+The [ST Flexipatch](https://github.com/bakkeby/st-flexipatch) project, which I use to configure the ST terminal emulator. My (uncleaned) configuration of ST is included in this repository.
+
+---
+
 ## Targeted use case:
 - Single user
 - Personal computing use
