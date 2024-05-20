@@ -10,6 +10,8 @@
 				];
 				monospace = [
 					"UbuntuMono Nerd Font"
+					"Noto Color Emoji"
+					"Noto Emoji"
 				];
 				sansSerif = [
 					"Ubuntu"
