@@ -395,67 +395,69 @@ static char *setbgcolorcmd[] = { "/bin/sh", "-c",
 #endif // EXTERNALPIPE_PATCH
 
 static Shortcut shortcuts[] = {
-	/* mask                 keysym          function         argument   screen */
-	{ XK_ANY_MOD,           XK_Break,       sendbreak,       {.i =  0} },
-	{ ControlMask,          XK_Print,       toggleprinter,   {.i =  0} },
-	{ ShiftMask,            XK_Print,       printscreen,     {.i =  0} },
-	{ XK_ANY_MOD,           XK_Print,       printsel,        {.i =  0} },
-	{ TERMMOD,              XK_Prior,       zoom,            {.f = +1} },
-	{ TERMMOD,              XK_Next,        zoom,            {.f = -1} },
-	{ TERMMOD,              XK_Home,        zoomreset,       {.f =  0} },
-	{ TERMMOD,              XK_C,           clipcopy,        {.i =  0} },
-	{ TERMMOD,              XK_V,           clippaste,       {.i =  0} },
+	/* mask                  keysym          function         argument   screen */
+	{ XK_ANY_MOD,            XK_Break,       sendbreak,       {.i =  0} },
+	{ ControlMask,           XK_Print,       toggleprinter,   {.i =  0} },
+	{ ShiftMask,             XK_Print,       printscreen,     {.i =  0} },
+	{ XK_ANY_MOD,            XK_Print,       printsel,        {.i =  0} },
+	{ ControlMask,           XK_KP_Add,      zoom,            {.f = +1} },
+	{ ControlMask,           XK_plus,        zoom,            {.f = +1} },
+	{ ControlMask,           XK_KP_Subtract, zoom,            {.f = -1} },
+	{ ControlMask,           XK_minus,       zoom,            {.f = -1} },
+	{ ControlMask|ShiftMask, XK_R,           zoomreset,       {.f =  0} },
+	{ TERMMOD,               XK_C,           clipcopy,        {.i =  0} },
+	{ TERMMOD,               XK_V,           clippaste,       {.i =  0} },
 	#if ALPHA_PATCH
-	{ TERMMOD,              XK_O,           changealpha,     {.f = +0.05} },
-	{ TERMMOD,              XK_P,           changealpha,     {.f = -0.05} },
+	{ TERMMOD,               XK_O,           changealpha,     {.f = +0.05} },
+	{ TERMMOD,               XK_P,           changealpha,     {.f = -0.05} },
 	#if ALPHA_FOCUS_HIGHLIGHT_PATCH
-	//{ TERMMOD,              XK_,           changealphaunfocused, {.f = +0.05} },
-	//{ TERMMOD,              XK_,           changealphaunfocused, {.f = -0.05} },
+	//{ TERMMOD,               XK_,           changealphaunfocused, {.f = +0.05} },
+	//{ TERMMOD,               XK_,           changealphaunfocused, {.f = -0.05} },
 	#endif // ALPHA_FOCUS_HIGHLIGHT_PATCH
 	#endif // ALPHA_PATCH
 	#if FULLSCREEN_PATCH
-	{ XK_NO_MOD,            XK_F11,         fullscreen,      {.i =  0} },
-	{ MODKEY,               XK_Return,      fullscreen,      {.i =  0} },
+	{ XK_NO_MOD,             XK_F11,         fullscreen,      {.i =  0} },
+	{ MODKEY,                XK_Return,      fullscreen,      {.i =  0} },
 	#endif // FULLSCREEN_PATCH
 	#if SCROLLBACK_PATCH
-	{ ShiftMask,            XK_Page_Up,     kscrollup,       {.i = -1}, S_PRI },
-	{ ShiftMask,            XK_Page_Down,   kscrolldown,     {.i = -1}, S_PRI },
+	{ ShiftMask,             XK_Page_Up,     kscrollup,       {.i = -1}, S_PRI },
+	{ ShiftMask,             XK_Page_Down,   kscrolldown,     {.i = -1}, S_PRI },
 	#endif // SCROLLBACK_PATCH
 	#if CLIPBOARD_PATCH
-	{ TERMMOD,              XK_Y,           clippaste,       {.i =  0} },
-	{ ShiftMask,            XK_Insert,      clippaste,       {.i =  0} },
+	{ TERMMOD,               XK_Y,           clippaste,       {.i =  0} },
+	{ ShiftMask,             XK_Insert,      clippaste,       {.i =  0} },
 	#else
-	{ TERMMOD,              XK_Y,           selpaste,        {.i =  0} },
-	{ ShiftMask,            XK_Insert,      selpaste,        {.i =  0} },
+	{ TERMMOD,               XK_Y,           selpaste,        {.i =  0} },
+	{ ShiftMask,             XK_Insert,      selpaste,        {.i =  0} },
 	#endif // CLIPBOARD_PATCH
-	{ TERMMOD,              XK_Num_Lock,    numlock,         {.i =  0} },
+	{ TERMMOD,               XK_Num_Lock,    numlock,         {.i =  0} },
 	#if COPYURL_PATCH || COPYURL_HIGHLIGHT_SELECTED_URLS_PATCH
-	{ MODKEY,               XK_l,           copyurl,         {.i =  0} },
+	{ MODKEY,                XK_l,           copyurl,         {.i =  0} },
 	#endif // COPYURL_PATCH
 	#if OPENCOPIED_PATCH
-	{ MODKEY,               XK_o,           opencopied,      {.v = "xdg-open"} },
+	{ MODKEY,                XK_o,           opencopied,      {.v = "xdg-open"} },
 	#endif // OPENCOPIED_PATCH
 	#if NEWTERM_PATCH
-	{ TERMMOD,              XK_Return,      newterm,         {.i =  0} },
+	{ TERMMOD,               XK_Return,      newterm,         {.i =  0} },
 	#endif // NEWTERM_PATCH
 	#if EXTERNALPIPE_PATCH
-	{ TERMMOD,              XK_U,           externalpipe,    { .v = openurlcmd } },
+	{ TERMMOD,               XK_U,           externalpipe,    { .v = openurlcmd } },
 	#if EXTERNALPIPEIN_PATCH
-	{ TERMMOD,              XK_M,           externalpipein,  { .v = setbgcolorcmd } },
+	{ TERMMOD,               XK_M,           externalpipein,  { .v = setbgcolorcmd } },
 	#endif // EXTERNALPIPEIN_PATCH
 	#endif // EXTERNALPIPE_PATCH
 	#if KEYBOARDSELECT_PATCH
-	{ TERMMOD,              XK_Escape,      keyboard_select, { 0 } },
+	{ TERMMOD,               XK_Escape,      keyboard_select, { 0 } },
 	#endif // KEYBOARDSELECT_PATCH
 	#if KEYBOARDSELECT_PATCH && REFLOW_PATCH
-	{ TERMMOD,              XK_F,           searchforward,   { 0 } },
-	{ TERMMOD,              XK_B,           searchbackward,  { 0 } },
+	{ TERMMOD,               XK_F,           searchforward,   { 0 } },
+	{ TERMMOD,               XK_B,           searchbackward,  { 0 } },
 	#endif // KEYBOARDSELECT_PATCH
 	#if ISO14755_PATCH
-	{ TERMMOD,              XK_I,           iso14755,        {.i =  0} },
+	{ TERMMOD,               XK_I,           iso14755,        {.i =  0} },
 	#endif // ISO14755_PATCH
 	#if INVERT_PATCH
-	{ TERMMOD,              XK_X,           invert,          { 0 } },
+	{ TERMMOD,               XK_X,           invert,          { 0 } },
 	#endif // INVERT_PATCH
 };
 
