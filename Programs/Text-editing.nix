@@ -3,7 +3,7 @@
 	environment = {
 		systemPackages = with pkgs; [
 			# Terminal text editor
-			micro
+			unstable.micro
 
 			# Spell checking
 			aspell
