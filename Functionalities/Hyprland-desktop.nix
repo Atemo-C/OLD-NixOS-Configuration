@@ -4,9 +4,6 @@
 			# Wallpaper
 			unstable.hyprpaper
 
-			# Bar
-			waybar
-
 			# Notifications
 			dunst
 			libnotify
@@ -27,9 +24,16 @@
 			killall
 	];
 
-	programs.hyprland = {
-		enable = true;
-		package = pkgs.unstable.hyprland;
+	# Hyprland Wayland compositor and Waybar bar
+	programs = {
+		hyprland = {
+			enable = true;
+			package = pkgs.unstable.hyprland;
+		};
+		waybar = {
+			enable = true;
+			package = pkgs.unstable.waybar;
+		};
 	};
 
 }
