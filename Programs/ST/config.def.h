@@ -145,7 +145,7 @@ unsigned int defaultrcs = 257; /* Reverse cursor*/
    2: Block ("█")
    4: Underline ("_")
    6: Bar ("|")
-   7: Fox ("🦊")   ((I like foxes :3))
+   7: Snowman ("☃")
 */
 static unsigned int cursorshape = 2;
 
