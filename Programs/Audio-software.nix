@@ -10,7 +10,7 @@
 
 		# Audio settings
 		pavucontrol
-		qpwgraph
+		unstable.qpwgraph
 
 		# Audio tools
 		alsa-utils
