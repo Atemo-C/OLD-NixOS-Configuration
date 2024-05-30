@@ -7,7 +7,7 @@
 	};
 
 	environment = {
-		sessionVariables = { WLR_NO_HARDWARE_CURSORS = "1"; };
+#		sessionVariables = { WLR_NO_HARDWARE_CURSORS = "1"; };
 		systemPackages = with pkgs; [
 			linuxPackages.nvidia_x11
 #			cudaPackages.cudatoolkit
