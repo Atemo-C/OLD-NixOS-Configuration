@@ -1,9 +1,9 @@
-# Single-user, desktop NixOS configuration, based on and running on the 23.11 release.
+# Single-user, desktop NixOS configuration, based on the 23.11 release and running on the 24.04 release.
 # The configuration is split into various modules in the `/etc/nixos` directory.
 # Most options that have not been changed from their default are not present in these modules.
 
 # The following commands need to be ran once the system is installed, before applying this configuration:
-#	sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-23.11.tar.gz home-manager
+#	sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz home-manager
 #	sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos-unstable
 #	sudo nix-channel --update
 

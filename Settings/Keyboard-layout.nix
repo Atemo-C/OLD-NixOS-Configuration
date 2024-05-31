@@ -1,8 +1,8 @@
 { config, lib, pkgs, ... }: {
 
-	services.xserver = {
+	services.xserver.xkb = {
 		layout = "fr";
-		xkbVariant = "";
+		variant = "";
 	};
 
 	console.keyMap = "fr";
