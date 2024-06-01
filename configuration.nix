@@ -1,4 +1,4 @@
-# Single-user, desktop NixOS configuration, based on the 23.11 release and running on the 24.04 release.
+# Single-user, desktop NixOS configuration, based on the 23.11 release and running on the 24.05 release.
 # The configuration is split into various modules in the `/etc/nixos` directory.
 # Most options that have not been changed from their default are not present in these modules.
 
