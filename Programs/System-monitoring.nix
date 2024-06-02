@@ -9,7 +9,7 @@
 		unstable.mission-center
 
 		# Informations
-		neofetch
+		fastfetch
 		lshw
 
 		# Testing and other tools

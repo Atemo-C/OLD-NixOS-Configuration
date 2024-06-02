@@ -5,7 +5,7 @@
 		shellAbbrs = {
 			c = "clear";
 			x = "exit";
-			n = "neofetch";
+			f = "fastfetch";
 			m = "micro";
 			h = "Hyprland";
 			clean = "sudo nix-collect-garbage -d";
