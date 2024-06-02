@@ -1,28 +1,31 @@
 { config, lib, pkgs, ... }: {
 
-	environment.systemPackages = with pkgs; [
-			# Wallpaper
-			unstable.hyprpaper
+	environment = {
+		systemPackages = with pkgs; [
+				# Wallpaper
+				unstable.hyprpaper
 
-			# Notifications
-			dunst
-			libnotify
+				# Notifications
+				dunst
+				libnotify
 
-			# Menus and scripts
-			gnome.zenity
-			tofi
+				# Menus and scripts
+				gnome.zenity
+				tofi
 
-			# Brightness control
-			brightnessctl
+				# Brightness control
+				brightnessctl
 
-			# Policykit agent
-			lxqt.lxqt-policykit
+				# Policykit agent
+				lxqt.lxqt-policykit
 
-			# Legacy X11 tools
-			xorg.xrandr
-			openbox
-			killall
-	];
+				# Legacy X11 tools
+				xorg.xrandr
+				openbox
+				killall
+		];
+		sessionVariables.NIXOS_OZONE_WL = "1";
+	};
 
 	# Hyprland Wayland compositor and Waybar bar
 	programs = {
