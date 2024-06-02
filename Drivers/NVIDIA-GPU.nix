@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }: {
 
 	boot = {
-		extraModulePackages = [ config.boot.kernelPackages.nvidia_x11 ];
+		extraModulePackages = [ config.boot.kernelPackages.nvidia_x11_beta ];
 		initrd.kernelModules = [ "nvidia" ];
 		kernelParams = [ "nvidia.NVreg_PreserveVideoMemoryAllocations=1" ];
 	};
@@ -17,6 +17,7 @@
 	hardware.nvidia = {
 		modesetting.enable = true;
 		nvidiaSettings = true;
+		package = config.boot.kernelPackages.nvidiaPackages.beta;
 		powerManagement.enable = true;
 #		prime = { # NVIDIA PRIME is untested.
 #			amdgpuBusId = "PCI:42:0:0";
