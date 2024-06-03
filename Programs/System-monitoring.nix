@@ -7,6 +7,7 @@
 		cpu-x
 		lm_sensors
 		unstable.mission-center
+		smartmontools
 
 		# Informations
 		fastfetch
