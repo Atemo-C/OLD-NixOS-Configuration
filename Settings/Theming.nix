@@ -5,10 +5,10 @@
 			ADW_DEBUG_COLOR_SCHEME = "prefer-dark";
 			HDY_DEBUG_COLOR_SCHEME = "prefer-dark";
 		};
-		systemPackages = with pkgs; [ flat-remix-icon-theme ];
+		systemPackages = with pkgs; [ adwsteamgtk ];
 	};
 
-	home-manager.users.usernamehere = {
+	home-manager.users.atemo = {
 		home.pointerCursor = {
 			gtk.enable = true;
 #			package = pkgs.bibata-cursors;
