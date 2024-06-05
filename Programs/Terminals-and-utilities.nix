@@ -13,6 +13,7 @@
 		wget
 		git
 		gh
+		tldr
 	];
 
 	# ST terminal emulator patching
