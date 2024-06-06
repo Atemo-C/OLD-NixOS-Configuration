@@ -11,7 +11,7 @@
 		lagrange
 
 		# Downloading
-		yt-dlp
+		unstable.yt-dlp
 		qbittorrent
 	];
 
