@@ -2,14 +2,7 @@
 # The configuration is split into various modules in the `/etc/nixos` directory.
 # Most options that have not been changed from their default are not present in these modules.
 
-# The following commands need to be ran once the system is installed, before applying this configuration:
-#	sudo nix-channel --add https://github.com/nix-community/home-manager/archive/release-24.05.tar.gz home-manager
-#	sudo nix-channel --add https://nixos.org/channels/nixos-unstable nixos-unstable
-#	sudo nix-channel --update
-
-# If Flatpaks are being used, also run these commands once Flatpak is enabled:
-#	flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-#	flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+# Read the README.md file for more information.
 
 # Help is available in:
 # • The configuration.nix(5) man page
@@ -40,8 +33,6 @@
 		<home-manager/nixos>
 
 		# Configuration for some drivers, devices, etc.
-		# Selecting a GPU driver is done by uncommenting it. Do not mix incompatible drivers.
-		# Each driver can be configured in their respective module.
 		./Drivers/OpenTabletDriver.nix
 		./Drivers/V4L2.nix
 		./Drivers/ZSA.nix
