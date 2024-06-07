@@ -72,7 +72,7 @@ The [ST Flexipatch](https://github.com/bakkeby/st-flexipatch) project. The versi
 - Snap packaging system
 - Virtual machine support
 - Computer with:
-  - A non-x86_64 (AMD64) architecture
+  - A non-x86_64 (AMD64) CPU architecture
   - No adequate GPU acceleration
-  - Less than 4 GiB of random access memory
+  - Less than 4 GiB of RAM
   - Less than 128 GiB of storage
