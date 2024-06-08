@@ -11,10 +11,10 @@
 
 	virtualisation = {
 		libvirtd.enable = true;
-		virtualbox.host = { # Warning: Takes a long time to compile.
-			enable = true;
-			enableExtensionPack = true;
-			package = pkgs.unstable.virtualbox;
+#		virtualbox.host = { # Warning: Takes a long time to compile.
+#			enable = true;
+#			enableExtensionPack = true;
+#			package = pkgs.unstable.virtualbox;
 		};
 #		docker = {
 #			enable = true;

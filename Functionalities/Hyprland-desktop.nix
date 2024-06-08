@@ -39,4 +39,7 @@
 		};
 	};
 
+	# XDG portals shenanigans
+	xdg.portal.extraPortals = with pkgs; [ xdg-desktop-portal-gtk ];
+
 }

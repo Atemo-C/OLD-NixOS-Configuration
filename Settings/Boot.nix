@@ -3,12 +3,11 @@
 	boot.loader = {
 		efi.canTouchEfiVariables = true;
 		systemd-boot = {
-			configurationLimit = 20;
-			consoleMode = "max";
+			configurationLimit = 15;
 			enable = true;
 			memtest86.enable = true;
 		};
-		timeout = 5;
+		timeout = 0;
 	};
 
 }

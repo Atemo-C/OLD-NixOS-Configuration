@@ -1,29 +1,5 @@
-# Single-user, desktop NixOS configuration, based on the 23.11 release and running on the 24.05 release.
-# The configuration is split into various modules in the `/etc/nixos` directory.
-# Most options that have not been changed from their default are not present in these modules.
-
-# Read the README.md file for more information.
-
-# Help is available in:
-# • The configuration.nix(5) man page
-# • The on-device manual, by running the `nixos-help` command
-# • The online manual at https://nixos.org/manual/nixos/stable/index.html
-# • The official NixOS Wiki at https://wiki.nixos.org/
-
-# A searchable list of available packages for NixOS can be found here:
-# https://search.nixos.org/packages
-
-# The command to locally search for packages is:
-#	nix search package
-# Where "package" is to be replaced with the desired name.
-
-# A searcheable list of available options for NixOS can be found here:
-# https://search.nixos.org/options
-
 { config, lib, pkgs, ... }: {
 
-	# Imports. Comment an import with # to exclude it.
-	# Each module can be edited to fit your needs.
 	imports = [
 
 		# Hardware configuration file
@@ -52,7 +28,6 @@
 		./Settings/Locale.nix
 		./Settings/Keyboard-layout.nix
 		./Settings/User.nix
-		./Settings/Nix-packages.nix
 		./Settings/Nix.nix
 		./Settings/Printing.nix
 		./Settings/Additional-filesystems.nix
@@ -66,7 +41,6 @@
 		./Settings/Power-button.nix
 		./Settings/Audio.nix
 		./Settings/Fstab.nix
-#		./Settings/Systemd.nix
 
 		# Programs
 		./Programs/Text-editing.nix
@@ -92,6 +66,9 @@
 		./Functionalities/Flatpak.nix
 		./Functionalities/Hyprland-desktop.nix
 		./Functionalities/Home-Manager.nix
+		./Functinalitiies/Nixpkgs-unfree.nix
+		./Functinalitiies/Nixpkgs-unstable.nix
 		./Functionalities/Virtualisation.nix
 	];
+
 }

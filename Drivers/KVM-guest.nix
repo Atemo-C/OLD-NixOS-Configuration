@@ -1,6 +1,6 @@
 { config, lib, pkgs, ... }: {
 
-	services = {
+	xservices = {
 		xserver.videoDrivers = [ "qxl" ];
 		qemuGuest.enable = true;
 	};
