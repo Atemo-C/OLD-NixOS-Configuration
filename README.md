@@ -77,7 +77,7 @@ flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/fl
 
 
 🭬AppImages
-──────────
+───────────
 Support for AppImages can be enabled/disabled by commenting the `AppImage.nix` import in `configuration.nix`.
 → https://github.com/Atemo-C/NixOS-Configuration/blob/main/configuration.nix
 
