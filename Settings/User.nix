@@ -1,9 +1,8 @@
 { config, lib, pkgs, ... }: {
 
-	users.users.usernamehere = {
+	users.users.atemo = {
 		isNormalUser = true;
-		description = "Your fancy name here";
-#		home = "/Your/desired/home/directory/";
+		description = "Atemo";
 		extraGroups = [
 			"wheel"
 			"plugdev"
@@ -13,11 +12,8 @@
 			"input"
 			"disk"
 			"adbusers"
-			"docker"
-			"libvirtd"
 			"scanner"
 			"lp"
-			"vboxusers"
 			"storage"
 		];
 		shell = pkgs.fish;
