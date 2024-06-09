@@ -9,4 +9,5 @@
 		alsa-utils
 		unstable.easyeffects
 	];
+
 }

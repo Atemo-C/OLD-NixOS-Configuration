@@ -46,6 +46,9 @@
 		# Programs
 		./Programs/3D-software.nix
 		./Programs/Android-tools.nix
+		./Programs/Audio/Editing.nix
+		./Programs/Audio/Music.nix
+		./Programs/Audio/Utilities.nix
 		./Programs/Audio-software.nix
 		./Programs/CD-DVD-utilities.nix
 		./Programs/Desktop-utilities.nix
