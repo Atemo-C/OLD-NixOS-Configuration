@@ -18,11 +18,6 @@
 
 				# Policykit agent
 				lxqt.lxqt-policykit
-
-				# Legacy X11 tools
-				xorg.xrandr
-				openbox
-				killall
 		];
 		sessionVariables.NIXOS_OZONE_WL = "1";
 	};

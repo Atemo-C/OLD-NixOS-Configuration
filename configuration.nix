@@ -60,6 +60,7 @@
 		./Programs/System-monitoring.nix
 		./Programs/Communication.nix
 		./Programs/Web-and-more.nix
+		./Programs/Legacy-X11-tools.nix
 
 		# Functionalities
 		./Functionalities/Hyprland-desktop.nix
