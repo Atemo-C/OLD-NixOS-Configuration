@@ -117,7 +117,6 @@ It can be configured in the `Hyprland-desktop.nix` module. \
 &nbsp; \
 &nbsp;
 ## Not yet implemented or tested, including but not limited to
-- Bluetooth
 - Legacy BIOS
 - Secure Boot
 - Accessibility

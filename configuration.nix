@@ -20,6 +20,7 @@
 		./Drivers/OpenGL.nix
 
 		# Settings
+#		./Settings/Bluetooth.nix
 		./Settings/Boot.nix
 		./Settings/Hostname.nix
 		./Settings/Networking.nix
