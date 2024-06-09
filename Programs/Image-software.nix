@@ -9,11 +9,9 @@
 		gcolor3
 
 		# Additional image formats support
-		unstable.kdePackages.kimageformats
 		libjxl
 		dcmtk
 		libwebp
-		webp-pixbuf-loader
 
 		# Image editing and drawing
 		gimp
@@ -25,7 +23,6 @@
 		# Other image utilities
 		unstable.upscayl
 		unstable.oxipng
-		gallery-dl
 	];
 
 }

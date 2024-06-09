@@ -1,8 +1,9 @@
 { config, lib, pkgs, ... }: {
 
 	environment.systemPackages = with pkgs; [
-		unstable.yt-dlp
+		gallery-dl
 		qbittorrent
+		unstable.yt-dlp
 	];
 
 }

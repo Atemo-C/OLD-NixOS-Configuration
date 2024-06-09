@@ -49,7 +49,10 @@
 		./Programs/Audio-software.nix
 		./Programs/CD-DVD-utilities.nix
 		./Programs/Desktop-utilities.nix
-		./Programs/File-management.nix # Inludes a bunch of utilities
+		./Programs/Files/Archiving.nix
+		./Programs/Files/Disks.nix
+		./Programs/Files/Thunar-and-thumbnailing.nix
+		./Programs/Files/Utilities.nix
 		./Programs/Gaming.nix # Includes Java
 		./Programs/GStreamer.nix
 		./Programs/Image-software.nix
