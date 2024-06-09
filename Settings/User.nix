@@ -1,8 +1,8 @@
 { config, lib, pkgs, ... }: {
 
-	users.users.atemo = {
+	users.users.usernamehere = {
 		isNormalUser = true;
-		description = "Atemo";
+		description = "User name here";
 		extraGroups = [
 			"wheel"
 			"plugdev"
