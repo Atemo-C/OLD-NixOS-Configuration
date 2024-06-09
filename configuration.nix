@@ -48,24 +48,23 @@
 		./Programs/Android-tools.nix
 		./Programs/Audio-software.nix
 		./Programs/CD-DVD-utilities.nix
-		./Programs/Communication.nix
 		./Programs/Desktop-utilities.nix
-		./Programs/Downloading-utilities.nix
 		./Programs/File-management.nix # Inludes a bunch of utilities
 		./Programs/Gaming.nix # Includes Java
 		./Programs/GStreamer.nix
 		./Programs/Image-software.nix
 		./Programs/Input-utilities.nix
+		./Programs/Internet/Social.nix
 		./Programs/Internet/Downloading.nix
 		./Programs/Internet/Gemini.nix
+		./Programs/Internet/Mail.nix
 		./Programs/Internet/Web.nix
 		./Programs/Legacy-X11-tools.nix
-		./Programs/Office.nix # Includes E-mails
+		./Programs/Office.nix
 		./Programs/System-monitoring.nix
 		./Programs/Terminals-and-utilities.nix
 		./Programs/Text-editing.nix
 		./Programs/Video-software.nix
-		./Programs/Web-browsing.nix
 
 		# Functionalities
 		./Functionalities/Hyprland-desktop.nix
