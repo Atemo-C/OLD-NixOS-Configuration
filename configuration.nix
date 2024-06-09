@@ -62,12 +62,12 @@
 		./Programs/Web-and-more.nix
 
 		# Functionalities
-		./Functionalities/AppImage.nix
-		./Functionalities/Flatpak.nix
 		./Functionalities/Hyprland-desktop.nix
 		./Functionalities/Home-Manager.nix
-		./Functinalitiies/Nixpkgs-unfree.nix
-		./Functinalitiies/Nixpkgs-unstable.nix
+		./Functionalities/Packages/AppImage.nix
+		./Functionalities/Packages/Flatpak.nix
+		./Functinalitiies/Packages/Nixpkgs-unfree.nix
+		./Functinalitiies/Packages/Nixpkgs-unstable.nix
 #		./Functionalities/Virtualisation/Docker.nix
 		./Functionalities/Virtualisation/Virt-manager.nix
 #		./Functionalities/Virtualisation/Virtualbox.nix
