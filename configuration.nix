@@ -66,8 +66,8 @@
 		./Functionalities/Home-Manager.nix
 		./Functionalities/Packages/AppImage.nix
 		./Functionalities/Packages/Flatpak.nix
-		./Functinalitiies/Packages/Nixpkgs-unfree.nix
-		./Functinalitiies/Packages/Nixpkgs-unstable.nix
+		./Functionalities/Packages/Nixpkgs-unfree.nix
+		./Functionalities/Packages/Nixpkgs-unstable.nix
 #		./Functionalities/Virtualisation/Docker.nix
 		./Functionalities/Virtualisation/Virt-manager.nix
 #		./Functionalities/Virtualisation/Virtualbox.nix
