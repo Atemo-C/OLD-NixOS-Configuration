@@ -25,4 +25,7 @@
 		variables = { EDITOR = "micro"; };
 	};
 
+	# Disabling the nano text editor installed by default
+	programs.nano.enable = false;
+
 }
