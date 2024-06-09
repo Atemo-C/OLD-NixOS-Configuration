@@ -3,6 +3,7 @@
 environment.systemPackages = with pkgs; [
 		gnome.gnome-clocks
 		galculator
+		unstable.keepassxc
 	];
 
 }
