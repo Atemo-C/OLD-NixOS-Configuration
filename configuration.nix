@@ -68,9 +68,9 @@
 		./Functionalities/Home-Manager.nix
 		./Functinalitiies/Nixpkgs-unfree.nix
 		./Functinalitiies/Nixpkgs-unstable.nix
-		./Functionalities/Virtualisation/Docker.nix
+#		./Functionalities/Virtualisation/Docker.nix
 		./Functionalities/Virtualisation/Virt-manager.nix
-		./Functionalities/Virtualisation/Virtualbox.nix
+#		./Functionalities/Virtualisation/Virtualbox.nix
 	];
 
 }
