@@ -9,6 +9,18 @@ The configuration is split into various nix modules that are imported in `config
 We can comment/uncomment modules to enable/disable them.
 &nbsp; \
 &nbsp;
+
+# State version
+This is very important. \
+In the `Nix.nix` file, you will find the `stateVersion = "23.11";` value. \
+[`Nix.nix`](https://github.com/Atemo-C/NixOS-Configuration/blob/main/Settings/Nix.nix) \
+The version should only be changed if you have installed NixOS from another version. \
+You should **never** need to change it afterwards, unless you re-install from a newer version. \
+For more information, please read more here. \
+[NixOS options - system.stateVersion](https://search.nixos.org/options?channel=unstable&show=system.stateVersion&from=0&size=50&sort=relevance&type=packages&query=system.stateVersion)
+&nbsp; \
+&nbsp;
+
 # Enabling functionalities before use
 Using this configuration on a clean installation of NixOS will result in errors. \
 This is because Home Manager and unstable packages are defined but not present on the system. \
@@ -78,7 +90,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 ```shell
 flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 ```
-&nbsp; 
+&nbsp;
 ### AppImages
 Support for AppImages can be enabled/disabled by commenting the `AppImage.nix` import in `configuration.nix`. \
 [`configuration.nix`](https://github.com/Atemo-C/NixOS-Configuration/blob/main/configuration.nix)
