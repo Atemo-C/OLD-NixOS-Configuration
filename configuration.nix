@@ -44,24 +44,28 @@
 		./Settings/Fstab.nix
 
 		# Programs
-		./Programs/Text-editing.nix
-		./Programs/Office.nix # Includes E-mails
-		./Programs/Audio-software.nix
-		./Programs/Video-software.nix
-		./Programs/GStreamer.nix
-		./Programs/CD-DVD-utilities.nix
-		./Programs/Image-software.nix
-		./Programs/File-management.nix # Inludes a bunch of utilities
-		./Programs/Android-tools.nix
 		./Programs/3D-software.nix
-		./Programs/Gaming.nix # Includes Java
-		./Programs/Input-utilities.nix
-		./Programs/Terminals-and-utilities.nix
-		./Programs/Desktop-utilities.nix
-		./Programs/System-monitoring.nix
+		./Programs/Android-tools.nix
+		./Programs/Audio-software.nix
+		./Programs/CD-DVD-utilities.nix
 		./Programs/Communication.nix
-		./Programs/Web-and-more.nix
+		./Programs/Desktop-utilities.nix
+		./Programs/Downloading-utilities.nix
+		./Programs/File-management.nix # Inludes a bunch of utilities
+		./Programs/Gaming.nix # Includes Java
+		./Programs/GStreamer.nix
+		./Programs/Image-software.nix
+		./Programs/Input-utilities.nix
+		./Programs/Internet/Downloading.nix
+		./Programs/Internet/Gemini.nix
+		./Programs/Internet/Web.nix
 		./Programs/Legacy-X11-tools.nix
+		./Programs/Office.nix # Includes E-mails
+		./Programs/System-monitoring.nix
+		./Programs/Terminals-and-utilities.nix
+		./Programs/Text-editing.nix
+		./Programs/Video-software.nix
+		./Programs/Web-browsing.nix
 
 		# Functionalities
 		./Functionalities/Hyprland-desktop.nix
