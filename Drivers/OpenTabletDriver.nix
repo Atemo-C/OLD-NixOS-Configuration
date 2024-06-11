@@ -5,6 +5,7 @@
 			"hid-uclogic"
 			"wacom"
 		];
+		daemon.enable = true;
 		enable = true;
 	};
 
