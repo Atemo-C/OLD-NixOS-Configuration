@@ -26,7 +26,7 @@
 	};
 
 	# Hyprland Wayland compositor
-	home-manager.users.atemo.wayland.windowManager.hyprland = {
+	home-manager.users.usernamehere.wayland.windowManager.hyprland = {
 		enable = true;
 		package = pkgs.unstable.hyprland;
 		settings = {
