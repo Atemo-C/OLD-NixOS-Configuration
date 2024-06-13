@@ -14,7 +14,7 @@
 		git
 		gh
 		tldr
-		parralel
+		parallel
 	];
 
 	# ST terminal emulator patching
