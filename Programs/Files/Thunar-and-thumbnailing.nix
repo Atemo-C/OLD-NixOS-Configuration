@@ -9,7 +9,6 @@
 				thunar-media-tags-plugin
 			];
 		};
-		xfconf.enable = true;
 	};
 
 	environment.systemPackages = with pkgs; [
