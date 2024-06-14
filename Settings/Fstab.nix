@@ -8,6 +8,7 @@
 #			"rw"
 #			"nofail"
 #			"users"
+#			"exec"
 #		];
 #	};
 
