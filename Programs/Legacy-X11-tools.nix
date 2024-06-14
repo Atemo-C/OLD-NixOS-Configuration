@@ -4,6 +4,7 @@
 		xorg.xrandr
 		openbox
 		killall
+		xwayland
 	];
 
 }
