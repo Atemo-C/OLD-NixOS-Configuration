@@ -29,24 +29,21 @@
 	home-manager.users.usernamehere.wayland.windowManager.hyprland = {
 		enable = true;
 		package = pkgs.unstable.hyprland;
-		settings = {
-			source = [
-				"$HOME/.config/hypr/Hyprland/Animations.conf"
-				"$HOME/.config/hypr/Hyprland/Autostart.conf"
-				"$HOME/.config/hypr/Hyprland/Bindings.conf"
-				"$HOME/.config/hypr/Hyprland/Decoration.conf"
-				"$HOME/.config/hypr/Hyprland/Environment-variables.conf"
-				"$HOME/.config/hypr/Hyprland/General.conf"
-				"$HOME/.config/hypr/Hyprland/Global-shortcuts.conf"
-				"$HOME/.config/hypr/Hyprland/Input.conf"
-				"$HOME/.config/hypr/Hyprland/Layout.conf"
-				"$HOME/.config/hypr/Hyprland/Miscellaneous.conf"
-				"$HOME/.config/hypr/Hyprland/Monitor.conf"
-				"$HOME/.config/hypr/Hyprland/Window-rules.conf"
-			];
-		};
+		settings.source = [
+			"$HOME/.config/hypr/Hyprland/Animations.conf"
+			"$HOME/.config/hypr/Hyprland/Autostart.conf"
+			"$HOME/.config/hypr/Hyprland/Bindings.conf"
+			"$HOME/.config/hypr/Hyprland/Decoration.conf"
+			"$HOME/.config/hypr/Hyprland/Environment-variables.conf"
+			"$HOME/.config/hypr/Hyprland/General.conf"
+			"$HOME/.config/hypr/Hyprland/Global-shortcuts.conf"
+			"$HOME/.config/hypr/Hyprland/Input.conf"
+			"$HOME/.config/hypr/Hyprland/Layout.conf"
+			"$HOME/.config/hypr/Hyprland/Miscellaneous.conf"
+			"$HOME/.config/hypr/Hyprland/Monitor.conf"
+			"$HOME/.config/hypr/Hyprland/Window-rules.conf"
+		];
 	};
-
 
 	# XDG portals shenanigans
 	xdg.portal = {
