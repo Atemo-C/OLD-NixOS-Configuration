@@ -1,3 +1,11 @@
+# Deprecation notice
+### This configuration has been replaced by my newer one, but is still here for achival purposes.
+### See https://github.com/Atemo-C/NixOS-configuration .
+
+---
+---
+---
+
 # General information
 This is an almost identical version of the NixOS configuration that I use.
 
